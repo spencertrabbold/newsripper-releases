@@ -1,0 +1,13 @@
+{
+  "latest_version": "3.5.0",
+  "minimum_supported_version": "3.4.0",
+  "release_date": "2026-06-11",
+  "download_page_url": "https://spencertrabbold.github.io/newsripper-releases/download.html",
+  "installer_url": "",
+  "notes": [
+    "Adds Check for Updates in Settings and About.",
+    "Shows release notes before opening the download page.",
+    "No automatic installer download or install."
+  ],
+  "sha256": ""
+}
