@@ -3,7 +3,7 @@
   "minimum_supported_version": "3.4.0",
   "release_date": "2026-06-11",
   "download_page_url": "https://spencertrabbold.github.io/newsripper-releases/download.html",
-  "installer_url": "",
+  "installer_url": "https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.5.0/NewsroomVideoDownloader_v3.5.0_setup.exe",
   "notes": [
     "Adds Check for Updates in Settings and About.",
     "Shows release notes before opening the download page.",
