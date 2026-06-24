@@ -1,14 +1,15 @@
 {
-  "latest_version": "3.6.0",
+  "latest_version": "3.7.0",
   "minimum_supported_version": "3.4.0",
   "release_date": "2026-06-12",
   "download_page_url": "https://spencertrabbold.github.io/newsripper-releases/download.html",
-  "installer_url": "https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.6.0/NewsroomVideoDownloader_v3.6.0_setup.exe",
+  "installer_url": "https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.7.0/NewsroomVideoDownloader_v3.7.0_setup.exe",
   "notes": [
-    "Adds a custom download folder setting.",
-    "Users can choose, open, and reset the download folder.",
-    "Default remains Videos\\NewsroomDownloads.",
-    "The app checks broken or missing custom folders before downloads start."
+    "Adds a Cancel button for active downloads.",
+    "Cancel works during downloading and processing/conversion.",
+    "Cancelled jobs show Download cancelled.",
+    "The app cleans up known unfinished files after cancellation.",
+    "Completed final MP4 files are not deleted by cancellation."
   ],
   "sha256": ""
 }
