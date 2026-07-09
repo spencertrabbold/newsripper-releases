@@ -30,24 +30,27 @@
   </style>
 </head>
 <body>
-  <h1>News.Ripper 3.7.3</h1>
+  <h1>News.Ripper 3.8.0</h1>
 
-  <p>Security update for safe newsroom video downloading.</p>
+  <p>Performance and reliability update for safe newsroom video downloading.</p>
 
   <p>
-    <a class="button" href="https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.7.3/NewsroomVideoDownloader_v3.7.3_setup.exe">
-  Download NewsRipper 3.7.3 Installer
+    <a class="button" href="https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.8.0/NewsroomVideoDownloader_v3.8.0_setup.exe">
+  Download NewsRipper 3.8.0 Installer
     </a>
   </p>
 
   <h2>What changed</h2>
 <ul>
-  <li>Updated yt-dlp to 2026.6.9.</li>
-  <li>Added stronger URL safety checks with DNS validation.</li>
-  <li>Blocks localhost, private, internal, and link-local URL targets.</li>
-  <li>Neutralizes dangerous filename segments like .exe, .bat, .cmd, .ps1, .url, and .lnk.</li>
-  <li>Validates downloaded and final media files using file signatures.</li>
-  <li>Adds Windows Zone.Identifier / Mark-of-the-Web to final MP4 files.</li>
+  <li>Much faster conversions: hardware-accelerated video encoding when your computer supports it, with automatic software fallback. Typical converted downloads finish several times faster.</li>
+  <li>Faster downloads: video segments now download in parallel.</li>
+  <li>Self-updating downloader engine: fixes for individual sites can arrive between app releases. Updates are user-initiated, checksum-verified, and one-click revertable.</li>
+  <li>Plain-English error messages with recovery tips.</li>
+  <li>Completed downloads show how long each step took (measured on your computer only).</li>
+  <li>If the app ever crashes, it leaves a clearly named CRASH file in the log folder to share.</li>
+  <li>New "Report a problem" button: opens your log folder and a pre-addressed email draft.</li>
+  <li>New "Prepare site analyzer now" button to pre-download the fallback browser on your schedule.</li>
+  <li>Hardening: cookies-path validation with visible errors, pasted page source capped at 10 MB.</li>
 </ul>
 
   <div class="note">
