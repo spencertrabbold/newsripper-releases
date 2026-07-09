@@ -1,15 +1,17 @@
 {
-  "latest_version": "3.7.0",
+  "latest_version": "3.7.3",
   "minimum_supported_version": "3.4.0",
-  "release_date": "2026-06-12",
+  "release_date": "2026-07-02",
   "download_page_url": "https://spencertrabbold.github.io/newsripper-releases/download.html",
-  "installer_url": "https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.7.0/NewsroomVideoDownloader_v3.7.0_setup.exe",
+  "installer_url": "https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.7.3/NewsroomVideoDownloader_v3.7.3_setup.exe",
   "notes": [
-    "Adds a Cancel button for active downloads.",
-    "Cancel works during downloading and processing/conversion.",
-    "Cancelled jobs show Download cancelled.",
-    "The app cleans up known unfinished files after cancellation.",
-    "Completed final MP4 files are not deleted by cancellation."
+    "Security update for limited newsroom testing.",
+    "Adds DNS-backed URL validation and blocks localhost/private/internal targets.",
+    "Neutralizes dangerous filename segments.",
+    "Validates downloaded and final media files using file signatures.",
+    "Applies Windows Zone.Identifier / Mark-of-the-Web to final MP4 files.",
+    "Updates yt-dlp to 2026.6.9.",
+    "Code signing is pending."
   ],
-  "sha256": ""
+  "sha256": "7E32357EA5702F57039362F7214794B324EF0ED87613D3E614AB9ADAA9AEC514"
 }
