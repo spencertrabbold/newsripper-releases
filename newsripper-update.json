@@ -1,18 +1,17 @@
 {
-  "latest_version": "3.8.0",
+  "latest_version": "3.8.1",
   "minimum_supported_version": "3.4.0",
-  "release_date": "2026-07-09",
+  "release_date": "2026-07-10",
   "download_page_url": "https://spencertrabbold.github.io/newsripper-releases/download.html",
-  "installer_url": "https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.8.0/NewsroomVideoDownloader_v3.8.0_setup.exe",
+  "installer_url": "https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.8.1/NewsroomVideoDownloader_v3.8.1_setup.exe",
   "notes": [
-    "Performance and reliability update for limited newsroom testing.",
-    "Hardware-accelerated video conversion when available, with automatic software fallback (typically several times faster).",
-    "Faster downloads: video segments download in parallel.",
-    "Self-updating downloader engine: user-initiated, checksum-verified, revertable.",
-    "Plain-English error messages with recovery tips.",
-    "Per-download timing shown on completed items (local only).",
-    "Crash reporting file and a Report a problem button.",
+    "Reliability update for limited newsroom testing.",
+    "YouTube live-stream replays (council meetings, pressers) now download.",
+    "Cancel works during the final merging step and cleans up partial files.",
+    "Site analyzer handles embedded frames, cookie pop-ups, and lazy players.",
+    "Full disks are explained clearly and blocked before download starts.",
+    "Your cookies file is protected from damage; problems are reported clearly.",
     "Code signing is pending."
   ],
-  "sha256": "30F62DC3BC08784FE07D0AC7A39A27AA6815AC1EB404325B90213279FABD073C"
+  "sha256": "B7C5CF1A144F21B42E387D8888CC5D6D5D015F26FC324DA0D730AABB619D6EEA"
 }

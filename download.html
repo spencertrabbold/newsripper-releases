@@ -30,27 +30,24 @@
   </style>
 </head>
 <body>
-  <h1>News.Ripper 3.8.0</h1>
+  <h1>News.Ripper 3.8.1</h1>
 
-  <p>Performance and reliability update for safe newsroom video downloading.</p>
+  <p>Reliability update for safe newsroom video downloading.</p>
 
   <p>
-    <a class="button" href="https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.8.0/NewsroomVideoDownloader_v3.8.0_setup.exe">
-  Download NewsRipper 3.8.0 Installer
+    <a class="button" href="https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.8.1/NewsroomVideoDownloader_v3.8.1_setup.exe">
+  Download NewsRipper 3.8.1 Installer
     </a>
   </p>
 
   <h2>What changed</h2>
 <ul>
-  <li>Much faster conversions: hardware-accelerated video encoding when your computer supports it, with automatic software fallback. Typical converted downloads finish several times faster.</li>
-  <li>Faster downloads: video segments now download in parallel.</li>
-  <li>Self-updating downloader engine: fixes for individual sites can arrive between app releases. Updates are user-initiated, checksum-verified, and one-click revertable.</li>
-  <li>Plain-English error messages with recovery tips.</li>
-  <li>Completed downloads show how long each step took (measured on your computer only).</li>
-  <li>If the app ever crashes, it leaves a clearly named CRASH file in the log folder to share.</li>
-  <li>New "Report a problem" button: opens your log folder and a pre-addressed email draft.</li>
-  <li>New "Prepare site analyzer now" button to pre-download the fallback browser on your schedule.</li>
-  <li>Hardening: cookies-path validation with visible errors, pasted page source capped at 10 MB.</li>
+  <li>YouTube videos that began as live streams (city council meetings, press conferences) now download — they previously failed with "This video is not available."</li>
+  <li>Cancel now works during the "merging audio and video" step of large downloads and cleans up all partial files.</li>
+  <li>Tricky news sites work more often: the site analyzer presses play inside embedded frames, dismisses cookie pop-ups (never accepting on your behalf), and wakes up lazy-loading players.</li>
+  <li>Full disks are explained in plain English, and downloads refuse to start when space is critically low.</li>
+  <li>Your cookies file is protected from damage; if it's ever empty or broken, Settings says so clearly.</li>
+  <li>Includes everything from 3.8.0: hardware-accelerated conversions, parallel downloads, the self-updating downloader engine, plain-English errors, and more.</li>
 </ul>
 
   <div class="note">
