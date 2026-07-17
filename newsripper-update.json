@@ -1,14 +1,13 @@
 {
-  "latest_version": "3.9.1",
+  "latest_version": "3.9.2",
   "minimum_supported_version": "3.4.0",
-  "release_date": "2026-07-10",
+  "release_date": "2026-07-17",
   "download_page_url": "https://spencertrabbold.github.io/newsripper-releases/download.html",
-  "installer_url": "https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.9.1/NewsroomVideoDownloader_v3.9.1_setup.exe",
+  "installer_url": "https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.9.2/NewsroomVideoDownloader_v3.9.2_setup.exe",
   "notes": [
-    "Minor polish over 3.9.0: the launch screen now renders cleanly.",
-    "3.9.0 brought the calm, ocean-inspired 'Swell' redesign — every download shows its stage at a glance, settings in a slide-over, and a new icon.",
-    "Includes all 3.8.x capabilities: hardware-accelerated conversions, parallel downloads, self-updating engine, and YouTube live-stream support.",
+    "More sites download successfully — when a site's video can't be read the usual way, News.Ripper now automatically tries its built-in browser analyzer instead of giving up (fixes some local-news and network-affiliate pages, e.g. NBC-owned stations).",
+    "Includes the 'Swell' redesign and all 3.8.x/3.9.x capabilities: hardware-accelerated conversions, parallel downloads, self-updating engine, and YouTube live-stream support.",
     "Code signing is pending."
   ],
-  "sha256": "C9ED84FF07F620B5A34AD07408E18337AC6C37BEDD4C056A433A652542809705"
+  "sha256": "09CD5FFB7A7E31CE2D4B96F046B67D889C9389AB59843ACB3C720BA263B492DA"
 }
