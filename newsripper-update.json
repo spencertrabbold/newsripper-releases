@@ -1,13 +1,14 @@
 {
-  "latest_version": "3.9.2",
+  "latest_version": "3.9.4",
   "minimum_supported_version": "3.4.0",
-  "release_date": "2026-07-17",
+  "release_date": "2026-09-04",
   "download_page_url": "https://spencertrabbold.github.io/newsripper-releases/download.html",
-  "installer_url": "https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.9.2/NewsroomVideoDownloader_v3.9.2_setup.exe",
+  "installer_url": "https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.9.4/NewsroomVideoDownloader_v3.9.4_setup.exe",
   "notes": [
-    "More sites download successfully — when a site's video can't be read the usual way, News.Ripper now automatically tries its built-in browser analyzer instead of giving up (fixes some local-news and network-affiliate pages, e.g. NBC-owned stations).",
-    "Includes the 'Swell' redesign and all 3.8.x/3.9.x capabilities: hardware-accelerated conversions, parallel downloads, self-updating engine, and YouTube live-stream support.",
+    "Rumble support update for limited newsroom testing.",
+    "Uses the official Rumble embed and browser-assisted discovery to select the highest available safe HLS rendition.",
+    "Produces a Premiere-friendly H.264/AAC MP4 while preserving existing URL, file, cancellation, cleanup, and finalization protections.",
     "Code signing is pending."
   ],
-  "sha256": "09CD5FFB7A7E31CE2D4B96F046B67D889C9389AB59843ACB3C720BA263B492DA"
+  "sha256": "F8191EA839EC61E02CFE05D869D3BB0ECA5ADD6B62C5D07404D16B48A8A9ECD2"
 }
