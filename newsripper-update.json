@@ -8,6 +8,7 @@
     "Rumble support update for limited newsroom testing.",
     "Uses the official Rumble embed and browser-assisted discovery to select the highest available safe HLS rendition.",
     "Produces a Premiere-friendly H.264/AAC MP4 while preserving existing URL, file, cancellation, cleanup, and finalization protections.",
+    "Security hardening remains enabled: DNS-backed URL validation, dangerous filename protection, magic-byte validation, and Zone.Identifier marking.",
     "Code signing is pending."
   ],
   "sha256": "F8191EA839EC61E02CFE05D869D3BB0ECA5ADD6B62C5D07404D16B48A8A9ECD2"
