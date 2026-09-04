@@ -30,26 +30,24 @@
   </style>
 </head>
 <body>
-  <h1>News.Ripper 3.9.4</h1>
+  <h1>News.Ripper 3.9.5</h1>
 
-  <p>Rumble support update for limited newsroom testing.</p>
+  <p>Filename workflow and Rumble support update for newsroom use.</p>
 
   <p>
-    <a class="button" href="https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.9.4/NewsroomVideoDownloader_v3.9.4_setup.exe">
-  Download NewsRipper 3.9.4 Installer
+    <a class="button" href="https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.9.5/NewsroomVideoDownloader_v3.9.5_setup.exe">
+  Download NewsRipper 3.9.5 Installer
     </a>
   </p>
 
   <h2>What changed</h2>
 <ul>
-  <li>Added support for public Rumble videos when normal yt-dlp extraction is blocked, using the official Rumble embed and browser-assisted media discovery.</li>
-  <li>Selects the highest available safe HLS rendition and produces a Premiere-friendly H.264/AAC MP4.</li>
-  <li>Preserves existing URL safety, filename hardening, magic-byte validation, Zone.Identifier, cancellation, cleanup, and finalization.</li>
-  <li>A refreshed, calm, ocean-inspired design built for the newsroom, with the paste-and-download flow front and center.</li>
-  <li>Every download now shows its stage at a glance: Downloading, Merging audio &amp; video, Converting to broadcast MP4, and Ready.</li>
-  <li>Settings moved into a slide-over panel that stays out of your way.</li>
-  <li>New app icon and launch screen.</li>
-  <li>Includes everything from 3.8.x: hardware-accelerated conversions, parallel downloads, the self-updating downloader engine, YouTube live-stream (VOD) support, plain-English errors, and disk-space and cookie-file safeguards.</li>
+  <li>Added an editable filename field, smarter automatic filename suggestions, and collision-safe naming.</li>
+  <li>Improved Facebook filename cleanup by removing leading engagement counts such as reactions, shares, and comments.</li>
+  <li>Improved Rumble automatic naming while retaining custom filename support.</li>
+  <li>Rumble downloads can select the highest available safe HLS rendition and produce Premiere-friendly H.264/AAC MP4 files.</li>
+  <li>Existing URL safety, filename hardening, magic-byte validation, Zone.Identifier, cancellation, cleanup, and finalization protections remain enabled.</li>
+  <li>The release build process was hardened for more reproducible packaging, and the splash screen now matches version 3.9.5.</li>
 </ul>
 
   <div class="note">

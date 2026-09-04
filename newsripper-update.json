@@ -1,15 +1,15 @@
 {
-  "latest_version": "3.9.4",
+  "latest_version": "3.9.5",
   "minimum_supported_version": "3.4.0",
   "release_date": "2026-09-04",
   "download_page_url": "https://spencertrabbold.github.io/newsripper-releases/download.html",
-  "installer_url": "https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.9.4/NewsroomVideoDownloader_v3.9.4_setup.exe",
+  "installer_url": "https://github.com/spencertrabbold/newsripper-releases/releases/download/v3.9.5/NewsroomVideoDownloader_v3.9.5_setup.exe",
   "notes": [
-    "Rumble support update for limited newsroom testing.",
-    "Uses the official Rumble embed and browser-assisted discovery to select the highest available safe HLS rendition.",
-    "Produces a Premiere-friendly H.264/AAC MP4 while preserving existing URL, file, cancellation, cleanup, and finalization protections.",
-    "Security hardening remains enabled: DNS-backed URL validation, dangerous filename protection, magic-byte validation, and Zone.Identifier marking.",
+    "Adds an editable filename field, smarter filename suggestions, Facebook engagement-prefix cleanup, and collision-safe naming.",
+    "Improves Rumble naming and retains browser-assisted Rumble HLS downloading for the highest available safe rendition.",
+    "Rumble downloads produce Premiere-friendly H.264/AAC MP4 files while existing URL safety, file validation, cancellation, cleanup, and finalization protections remain enabled.",
+    "The release build process was hardened for more reproducible packaging, and the splash now matches version 3.9.5.",
     "Code signing is pending."
   ],
-  "sha256": "F8191EA839EC61E02CFE05D869D3BB0ECA5ADD6B62C5D07404D16B48A8A9ECD2"
+  "sha256": "9B0FA7BE50AFB47D8CA7679CD23BE06CC2D4E42965EE58AAD6006E3D83D251C7"
 }
